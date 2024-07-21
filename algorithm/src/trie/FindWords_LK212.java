@@ -20,7 +20,7 @@ import java.util.List;
  * words[i] 由小写英文字母组成
  * words 中的所有字符串互不相同
  */
-public class FindWords_212 {
+public class FindWords_LK212 {
     public List<String> findWords(char[][] board, String[] words) {
         buildTree(words);
         List<String> ans = new ArrayList<>();

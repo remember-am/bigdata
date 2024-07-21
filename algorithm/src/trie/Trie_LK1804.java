@@ -13,7 +13,7 @@ import java.util.Arrays;
  * int countWordsStartingWith(String prefix) 返回前缀树中以 prefix 字符串为前缀的字符串个数 。
  * void erase(String word) 从前缀中移除字符串 word
  */
-public class Trie_1804 {
+public class Trie_LK1804 {
     static final int MAX_SIZE = (int) 1e5 + 10;
 
     static int[][] tree = new int[MAX_SIZE][26];
@@ -24,7 +24,7 @@ public class Trie_1804 {
 
     static int cnt = 1;
 
-    public Trie_1804() {
+    public Trie_LK1804() {
 
     }
 

@@ -8,7 +8,7 @@ package trie;
  * 1 <= nums.length <= 2 * 10^5
  * 0 <= nums[i] <= 2^31 - 1
  */
-public class FindMaximumXOR_421 {
+public class FindMaximumXOR_LK421 {
     // 前缀树做法
     public int findMaximumXOR(int[] nums) {
         int max = 0;
