@@ -14,7 +14,7 @@ import java.util.Map;
  * 1 <= nums[i] <= 10^9
  * 1 <= p <= 10^9
  */
-public class MinSubarray_1590 {
+public class MinSubarray_LK1590 {
     public int minSubarray(int[] nums, int p) {
         // 求出整个数组累加和的值和p取模的结果
         // 此处题目数据量直接做加法可能存在数值溢出，需要使用同余原理求取模

@@ -14,7 +14,7 @@ import java.util.Map;
  * 1 <= hours.length <= 10^4
  * 0 <= hours[i] <= 16
  */
-public class LongestWPI_1124 {
+public class LongestWPI_LK1124 {
     public int longestWPI(int[] hours) {
         Map<Integer, Integer> map = new HashMap<>();
         map.put(0, -1);

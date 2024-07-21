@@ -15,11 +15,11 @@ package prefixinfo;
  * 0 <= i <= j < nums.length
  * 最多调用 10^4 次 sumRange 方法
  */
-class NumArray_303 {
+class NumArray_LK303 {
 
     int[] nums;
 
-    public NumArray_303(int[] nums) {
+    public NumArray_LK303(int[] nums) {
         this.nums = new int[nums.length + 1];
         for (int i = 1; i < this.nums.length; i++) {
             this.nums[i] += this.nums[i - 1] + nums[i - 1];

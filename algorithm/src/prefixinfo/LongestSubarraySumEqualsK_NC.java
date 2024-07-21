@@ -23,7 +23,7 @@ import java.util.HashMap;
  * −10^9 ⩽ k ⩽ 10^9
  * −100 ⩽ arr i ⩽ 100
  */
-public class LongestSubarraySumEqualsK {
+public class LongestSubarraySumEqualsK_NC {
 
     static final int MAX_LENGTH = (int) 1e5 + 1;
 

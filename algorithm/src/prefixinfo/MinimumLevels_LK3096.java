@@ -14,7 +14,7 @@ package prefixinfo;
  * 2 <= n == possible.length <= 10^5
  * possible[i] 要么是 0 要么是 1 。
  */
-public class MinimumLevels_3096 {
+public class MinimumLevels_LK3096 {
     public int minimumLevels(int[] possible) {
         int sum = 0;
         for (int num : possible) {

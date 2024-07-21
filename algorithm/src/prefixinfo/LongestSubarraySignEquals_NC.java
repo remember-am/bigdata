@@ -18,7 +18,7 @@ import java.util.Map;
  * 1 ⩽ N ⩽ 10^5
  * −100 ⩽ arri ⩽ 100
  */
-public class LongestSubarraySignEquals {
+public class LongestSubarraySignEquals_NC {
     static final int MAX_LENGTH = (int) 1e5 + 1;
 
     static final int[] arr = new int[MAX_LENGTH];
